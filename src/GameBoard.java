@@ -79,7 +79,7 @@ public class GameBoard {
         return true;
     }
 
-    // True if any row, column, or diagonal has three matching non-‘#’ chars
+    // True if any row, column, or diagonal has three matching non-‘#’ charsFASDF
     public boolean WinCondition() {
         for (int i = 0; i < 3; i++) {
             if (board[i][0] != '#' &&
